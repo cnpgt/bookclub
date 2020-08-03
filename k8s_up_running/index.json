@@ -1,6 +1,6 @@
 {
-  "title": "Kubernetes Test",
-  "description": "Pods use in Kubernetes",
+  "title": "Kubernetes Hello World",
+  "description": "Cluster first steps and Hello world pod",
   "details": {
     "steps": [
       {
