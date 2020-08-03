@@ -1,4 +1,4 @@
-## Troubleshooting the cluster ##
+## Troubleshooting the cluster :) ##
 With the kubectl command you can list the nodes of your cluster  
 `kubectl get nodes`{{execute HOST1}}  
 You can also get the description on each node  
