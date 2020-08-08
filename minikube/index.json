@@ -1,0 +1,32 @@
+{
+	"pathwayTitle": "Kubernetes Bootcamp",
+	"title": "Instalación - Minikube",
+	"description": "Creando un primer cluster con Minikube",
+	"backend": {
+		"port": 30000,
+		"imageid": "minikube"
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"hideintro": false,
+		"hidefinish": false
+	},
+	"details": {
+		"steps": [{
+			"title": "Creando el cluster",
+			"text": "paso1.md"
+		}, {
+			"title": "Troubleshooting del Cluster",
+			"text": "paso2.md"
+		}, {
+			"title": "Creando un pod",
+			"text": "paso3.md"
+		}],
+		"intro": {
+			"text": "inicio.md"
+		},
+		"finish": {
+			"text": "fin.md"
+		}
+	}
+}

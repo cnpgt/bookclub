@@ -1,3 +1,3 @@
-This cluster is running and ready to use it, execute :)
-
+## Execute a hello world pod ##
+kubectl exec -i -t dnsutils -- nslookup kubernetes.default
 `kubectl version`{{execute HOST1}}
