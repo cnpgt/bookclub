@@ -11,9 +11,9 @@
         "hidefinish": false,
         "showdashboard": true,
         "dashboards": [
-            {"name": "URL", "href": "https://kubernetes.io/docs"},
             {"name": "K8s Dashboard", "port": 30000},
-            {"name": "Nginx App", "port": 31111}]
+			{"name": "Nginx App", "port": 31111},
+            {"name": "K8s Docs", "href": "https://kubernetes.io/docs"}]
 	},
 	"details": {
 		"steps": [{
