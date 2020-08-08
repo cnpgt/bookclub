@@ -12,6 +12,6 @@ Ahora creemos un servidor web que podamos acceder, primero creamos un pod con el
 `kubectl run nginx --image=nginx --restart=Never`{{execute}}  
   
 Ahora hacemos público el servicio creando un service con el comando:
-`kubectl expose pod nginx --name=nginx-public --port=80 --target-port=80 --type=LoadBalancer`{{execute}}
+`kubectl expose pod nginx --name=nginx-public --port=80 --target-port=80 --type=NodePort`{{execute}}
 
 

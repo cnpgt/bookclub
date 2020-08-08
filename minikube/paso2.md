@@ -3,8 +3,7 @@ Kubernetes tiene un dashboard el cual podemos instalar.  Para mostrarlo en Minik
 
 `minikube dashboard`{{execute}}
 
-Este puedes accederlo en:
-
+Pues accederlo en la pestaña llamada *K8s Dashboard*
 
 Ahora hagamos unas pequeñas pruebas del cluster, listando los nodos que tiene:  
   
@@ -21,8 +20,12 @@ Versión de nuestro cliente del API:
 Algunos otros detalles del cluster:  
   
 `kubectl get componentstatus`{{execute}}  
+
+Ver el archivo de configuración para conectarnos:  
   
 `kubectl config view`{{execute}}  
+
+Ver los contextos disponibles de conexión:  
   
 `kubectl config get-contexts`{{execute}}  
   
