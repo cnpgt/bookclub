@@ -7,7 +7,7 @@ Para exponer el dashboard ejecuta:
 Revisemos el puerto al que se conecto en los services:  
 `kubectl get services -n kubernetes-dashboard`{{execute}}
 
-Pues accederlo en la pestaña llamada *K8s Dashboard*  
+Para accederlo colocamos en nuestro navegador el siguiente url, reemplazando YOURPORT con el puerto que genero el service:  
   
 https://[[HOST_SUBDOMAIN]]-YOURPORT-[[KATACODA_HOST]].environments.katacoda.com/
 
@@ -21,6 +21,10 @@ Es importante configurar las credenciales de kubectl en *~/.kube/config*, sin el
 Ahora miremos el archivo de configuración para conectarnos:  
   
 `kubectl config view`{{execute}}  
+
+Debe de ser igual o abreviado al ver el archivo de config con el comando:  
+  
+`cat ~/.kube/config`{{execute}}
 
 Ver los contextos disponibles de conexión:  
   

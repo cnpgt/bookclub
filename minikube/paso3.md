@@ -13,5 +13,8 @@ Ahora creemos un servidor web que podamos acceder, primero creamos un pod con el
   
 Ahora hacemos público el servicio creando un service con el comando:
 `kubectl expose pod nginx --name=nginx-public --port=80 --target-port=80 --type=NodePort`{{execute}}
-
+  
+Para accederlo colocamos en nuestro navegador el siguiente url, reemplazando YOURPORT con el puerto que genero el service:
+  
+https://[[HOST_SUBDOMAIN]]-YOURPORT-[[KATACODA_HOST]].environments.katacoda.com/
 
