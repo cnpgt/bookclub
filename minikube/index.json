@@ -3,9 +3,8 @@
 	"title": "Instalación - Minikube",
 	"description": "Creando un primer cluster con Minikube",
 	"backend": {
-		"port": 30000,
-		"imageid": "minikube"
-	},
+        "imageid": "minikube-running"
+    },
 	"environment": {
         "uilayout": "terminal",        
 		"hideintro": false,
@@ -13,8 +12,7 @@
         "showdashboard": true,
         "dashboards": [
             {"name": "URL", "href": "https://kubernetes.io/docs"},
-            {"name": "Port 30000 - k8s Dashboard", "port": 30000},
-            {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/", "port": 31111}]
+            {"name": "k8s Dashboard", "port": 30000},
 	},
 	"details": {
 		"steps": [{
