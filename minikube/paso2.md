@@ -12,4 +12,4 @@ Ahora hagamos unas pequeñas pruebas del cluster, listando los nodos que tiene:
   
 Ahora mostremos el estado de sus componentes si son saludables  
   
-`kubectl cluster-info dump`{{execute}}
+`kubectl cluster-info`{{execute}}
