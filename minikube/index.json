@@ -12,7 +12,7 @@
         "showdashboard": true,
         "dashboards": [
             {"name": "URL", "href": "https://kubernetes.io/docs"},
-            {"name": "k8s Dashboard", "port": 30000},
+            {"name": "k8s Dashboard", "port": 30000}]
 	},
 	"details": {
 		"steps": [{
