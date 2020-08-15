@@ -1,15 +1,11 @@
 {
-  "title": "CN+GT - Kubernetes Hello World :)",
-  "description": "Cluster first steps and Hello world pod",
+  "title": "CN+GT - Kubernetes Playground",
+  "description": "Escenario para ejercitar kubernetes",
   "details": {
     "steps": [
       {
         "title": "Step 1",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
       }
     ],
     "finish": {
